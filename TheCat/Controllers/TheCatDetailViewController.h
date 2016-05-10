@@ -10,6 +10,6 @@
 
 @interface TheCatDetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDictionary *theCat;
+@property (weak, nonatomic) NSDictionary *theCat;
 
 @end
